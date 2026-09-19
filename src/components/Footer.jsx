@@ -21,15 +21,15 @@ const Footer = () => {
           <div className="flex flex-col gap-6 w-full md:w-auto">
             <div>
               <p className="text-gray-400 text-sm mb-2">Connect with me</p>
-              <a href="mailto:leesharkofficial@gmail.com" className="text-xl md:text-5xl font-medium hover:text-gray-300 transition-colors break-words">
-                leesharkofficial@gmail.com
+              <a href="mailto:enaswin1712@gmail.com" className="text-xl md:text-5xl font-medium hover:text-gray-300 transition-colors break-words">
+                enaswin17@gmail.com
               </a>
             </div>
 
             <div className="flex flex-wrap gap-6 text-sm text-gray-300 mt-4">
               <a href="#home" className="hover:text-white transition-colors">Home</a>
               <a href="#about" className="hover:text-white transition-colors">About</a>
-              <a href="#services" className="hover:text-white transition-colors">Services</a>
+              <a href="#education" className="hover:text-white transition-colors">Education</a>
               <a href="#project" className="hover:text-white transition-colors">Projects</a>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="flex flex-col items-start md:items-end text-left md:text-right w-full md:w-auto mt-4 md:mt-0">
             <h3 className="text-lg md:text-2xl font-medium mb-2">Let's build something</h3>
             <p className="text-gray-400 text-sm mb-6 max-w-xs">
-              Open for freelance opportunities and collaborations.
+              Open for freelance opportunities.
             </p>
             <a href="#contact" className="bg-white text-black px-6 py-3 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors">
               Get in touch
@@ -45,24 +45,22 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Middle Section - Socials */}
+        {/* Section - Socials */}
         <div className="flex flex-wrap justify-between items-center py-6 border-t border-white/10 mb-4 text-sm md:text-lg font-medium">
-          <a href="https://www.instagram.com/lema.web/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Instagram</a>
-          <a href="https://www.youtube.com/@leeshark" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Youtube</a>
-          <a href="https://www.linkedin.com/in/leeshark-p-1a9642291/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">LinkedIn</a>
-          <a href="https://github.com/leeshark21/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Github</a>
+          <a href="https://www.linkedin.com/in/aswin-e-n-6a9411253/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">LinkedIn</a>
+          <a href="https://github.com/aswinen-17" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Github</a>
         </div>
 
         {/* Huge Text Section */}
         <div className="w-full text-center flex-1 flex items-center justify-center min-h-0">
           <h1 className="text-[12vw] font-bold leading-none tracking-tighter" style={{ fontFamily: 'Inter, sans-serif' }}>
-            LEESHARK
+            ASWIN E N
           </h1>
         </div>
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-400 mt-auto pt-6">
-          <p>© {new Date().getFullYear()} Leeshark. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Aswin. All Rights Reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms and conditions</a>
